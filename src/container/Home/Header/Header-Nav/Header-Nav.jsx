@@ -252,11 +252,10 @@ class HeaderNav extends React.Component {
                           </div>
                           </a>
                       </li>
-
                     </ul>
                     
                 </nav>
-                <div>
+                <div className='header-nav-gif'>
 
                 </div>
             </div>

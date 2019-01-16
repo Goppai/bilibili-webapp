@@ -3,8 +3,13 @@
     height:80px;
     margin: 0 auto;
     padding: 0px;
-    min-width: 980px;
+    min-width: 1050px;
    
+}
+.header-nav nav{
+    width:93%;
+    display: inline-block;
+    height: 100%;
 }
 .header-nav ul{
     height:80px;
@@ -12,10 +17,13 @@
 .header-nav ul li{
     display: inline-block;
     height:100%;
-    padding-right:2.5%;
     font-size:15px; 
- 
+    width:4.9%;
 }
+.header-nav ul li:last-child{
+    padding-right:0px !important;
+}
+
 .header-nav ul li a{
     display: inline-block;
     height:100%;
@@ -64,6 +72,9 @@
 .last-four{
     text-align: center;
 }
+.last-four:first-child,.last-four:nth-child(2),.last-four:nth-child(3){
+    padding-right:2.2% !important;
+}
 .last-four a div span{
     background-image:url('../../../../images/icons.png'); 
     background-repeat:no-repeat; 
@@ -83,4 +94,15 @@
 }
 .four-fourth  a div:first-child span{
     background-position: -113.1px -2525.6px ;
+}
+.header-nav-gif{
+    background-image:url('../../../../images/miku.gif');
+    width:5%;
+    height:100%; 
+    background-repeat:no-repeat;
+    background-position: -0px 8px;
+    background-size:80px 50px; 
+    vertical-align: bottom;
+    display:inline-block; 
+
 }
