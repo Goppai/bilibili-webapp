@@ -10,8 +10,8 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <Header />
-                <HeaderNav />
+                <Header/>
+                <HeaderNav/>
             </div>
         )
     }

@@ -1,9 +1,86 @@
 .header-nav{
-    widows: 79%;
-    height:68px;
+    width: 79%;
+    height:80px;
     margin: 0 auto;
-    background: red;
+    padding: 0px;
+    min-width: 980px;
+   
 }
 .header-nav ul{
+    height:80px;
+}
+.header-nav ul li{
+    display: inline-block;
+    height:100%;
+    padding-right:2.5%;
+    font-size:15px; 
+ 
+}
+.header-nav ul li a{
+    display: inline-block;
+    height:100%;
+    color:#000;
+}
+.header-nav-ul-li-home a div:first-child{
+    height:50%;
+    width:100%;
+    /* background-image:url('../../../../images/icons.png');
+    background-position: -658px -1155px ;
+    background-repeat:no-repeat; */
+    text-align: center;
     
+}
+.header-nav-ul-li-others a div:first-child{
+    height:50%;
+    width:100%;
+    text-align: center;
+  
+}
+.header-nav-ul-li-others a div:first-child span{
+    max-width:28px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:rgba(255, 175, 201, 0.9); 
+    font-size:13px;
+    margin-top:1rem; 
+    color:#fff;
+    padding: 1px 3px;
+}
+.header-nav-ul-li-home a div:first-child span{
+    background-image:url('../../../../images/homeicon.png'); 
+    background-repeat:no-repeat; 
+    width:28px;
+    height:1.3rem;
+    display: inline-block;
+    margin-top:0.8rem; 
+    
+}
+
+
+.header-nav ul li a div:nth-child(2) {
+    height:50%;
+    width:100%;
+}
+.last-four{
+    text-align: center;
+}
+.last-four a div span{
+    background-image:url('../../../../images/icons.png'); 
+    background-repeat:no-repeat; 
+    background-size:2080px 3177.2px;
+    width:28px;
+    height:1.3rem;
+    display: inline-block;
+}
+.four-first  a div:first-child span{
+    background-position:-113.1px -2356.6px;
+}
+.four-second  a div:first-child span{
+    background-position:-113.1px -2608.8px ;
+}
+.four-third  a div:first-child span{
+    background-position:-113.1px -2442.4px ;
+}
+.four-fourth  a div:first-child span{
+    background-position: -113.1px -2525.6px ;
 }
