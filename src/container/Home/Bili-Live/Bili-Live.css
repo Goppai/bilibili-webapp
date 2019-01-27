@@ -1,0 +1,58 @@
+.bili-live{
+    width:79%;
+    height:300px;
+    margin: 10px auto;
+    min-width: 1050px;
+}
+.bili-now-live{
+    width:77%;
+    height:100%;
+    float: left;
+  
+}
+.bili-live-header{
+    height:50px;
+}
+.bili-live-header div{
+    width:60px;
+    height:100%;
+    background-image: url('../../../images/icons.png');
+    background-position: -183.3px -847.6px;
+    background-repeat: no-repeat;
+    background-size: 2080px 3177.2px;
+    float:left;
+}
+.bili-live-header a:nth-of-type(1){
+    font-size:30px;
+    color:black;
+    display: inline-block;
+    margin-top:10px;
+    margin-right:40px;  
+}
+.bili-live-header>span{
+    font-size:15px;
+    display: inline-block;
+    margin-right:60px;  
+}
+.bili-live-header>span:first-of-type{
+    color:#6d757a;
+}
+.bili-live-header>span:first-of-type em{
+    color:#00a1d6;
+}
+.bili-live-header a:nth-of-type(2){
+    display: inline-block;
+    font-size:15px;
+    color:#6d757a;
+}
+.bili-live-header a:nth-of-type(2) span:first-child{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-image: url('../../../images/icons.png');
+    background-position: -665px -1113px;
+    background-repeat: no-repeat;
+
+}
+
+

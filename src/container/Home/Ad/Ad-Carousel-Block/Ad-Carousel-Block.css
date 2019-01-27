@@ -1,0 +1,83 @@
+.ad-carousel-block{
+    width:79%;
+    height:280px;
+    margin: 0 auto;
+    min-width: 1050px;
+}
+.ad-carousel-block-container{
+    width:100%;
+    height:100%;
+    position: relative;
+    
+}
+.ad-carousel-container-swipe{
+    width:37%;
+    height:100%;
+}
+.carousel{
+    width:100%;
+}
+.react-swipe-container{
+    border-radius: 8px; 
+    width:100%;
+}
+.carousel-item a{
+    display:block;
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.carousel-item a img{
+    width:100%;
+    height:280px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.carousel-span{
+    background-image:url(../../../../images/icons.png);
+    background-position: -1108.5px -939.5px;
+    background-repeat:no-repeat; 
+    background-size:2080px 3177.2px;
+    border-radius:15px !important; 
+    background-color:transparent !important; 
+    width: 30px !important;
+    height:30px !important;
+    margin-bottom: 2px !important;
+
+}
+
+.ad-carousel-container-block{
+    width:61.5%;
+    position: absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+  
+}
+.ad-carousel-container-block .carousel-top-four,.ad-carousel-container-block .carousel-bottom-four{
+    width:23%;
+    height:46.5%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 6px;
+    position: relative;
+   
+}
+.ad-carousel-container-block .carousel-top-four:nth-child(n+2){
+    margin-left: 2%;
+}
+.ad-carousel-container-block .carousel-bottom-four:nth-last-child(n+1){
+    margin-right:2%;
+    margin-top:2%; 
+}
+.carousel-top-four:hover .ad-hover{
+    display:block;
+}
+.carousel-bottom-four:hover .ad-hover{
+    display:block;
+}
+.ad-carousel-container-block div img{
+    width:100%;
+    height:100%;
+    border-radius: 6px;
+}
