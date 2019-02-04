@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import HeaderNav from './Header/Header-Nav/Header-Nav'
 import Ad from './Ad/Ad'
 import BiliLive from './Bili-Live/Bili-Live'
+import FanDrama from './Fan-Drama/Fan-Drama'
 class Home extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -16,6 +17,7 @@ class Home extends React.Component {
                 <HeaderNav/>
                 <Ad />
                 <BiliLive />
+                <FanDrama />
             </div>
         )
     }

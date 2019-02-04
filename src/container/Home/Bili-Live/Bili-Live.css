@@ -1,6 +1,6 @@
 .bili-live{
     width:79%;
-    height:300px;
+    height:420px;
     margin: 10px auto;
     min-width: 1050px;
 }
@@ -52,7 +52,122 @@
     background-image: url('../../../images/icons.png');
     background-position: -665px -1113px;
     background-repeat: no-repeat;
-
+}
+.bili-live-container{
+    width:100%;
+    height:calc(100% - 50px);
+    
+}
+.bili-live-container table{
+    width:100%;
+    height:100%;
+}
+.bili-live-container tr{
+    display: block;
+    width:100%;
+    height:50%; 
+   
+}
+.bili-live-container td{
+    display: inline-block;
+    width:calc(100% / 5) ;
+    height:100%; 
+  
 }
 
+
+.bili-live-td-div{
+    width:calc(100% - 12%);
+    height:calc(100% - 8%);
+    margin: 8% 12% 0px 0px; 
+   
+}
+.bili-live-td-div a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.bili-live-td-div a img{
+    display: block;
+    width:100%;
+    height:80%;
+    border-radius:6px;
+}
+.bili-live-td-div a h2{
+    width:100%;
+    height:20%;
+}
+.bili-live-carousel{
+    width:23%;
+    height:100%;
+    float: right;
+  
+}
+.bili-live-carousel-header{
+    height:50px;
+}
+.bili-live-carousel-tab{
+    display: inline-block;
+    font-size: 16px;
+    margin-top:26.5px; 
+    margin-right:14px; 
+}
+
+.bili-live-on{
+    color: #00a1d6;
+    position: relative;
+    background-color: transparent;
+    border-color: #00a1d6;
+    border-bottom: 1px solid #00a1d6;
+    padding-bottom:6px;
+}
+.bili-live-on:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 3px solid #00a1d6;
+    border-top: 0;
+    border-left: 3px dashed transparent;
+    border-right: 3px dashed transparent;
+}
+.bili-live-carousel-container{
+    height:calc(83% - 50px - 5%);
+    width:100%;
+    margin-top:5%;
+}
+
+.bili-live-carousel-main .carousel-item a{
+    display:block;
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.bili-live-carousel-main .carousel-item a img{
+    width:100%;
+    height:280px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.small-video{
+    height:calc(17% - 4%);
+    margin-top:4%;
+    width:100%; 
+}
+.small-video a{
+    display: inline-block;
+    height:100%;
+    width:48%;
+}
+.small-video a:first-child{
+    margin:0px 4% 0px 0;
+}
+.small-video a img{
+    display: inline-block;
+    height:100%;
+    width:100%;
+}
 
