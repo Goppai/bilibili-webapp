@@ -3,7 +3,7 @@
     height:210px;
     background-image:url('../../../images/bilibili01.png') ;
     background-size: cover;
-    background-position: -190px 0;
+    min-width: 1050px;
     margin: 0;
     padding: 0;
 }

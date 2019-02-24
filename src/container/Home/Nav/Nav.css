@@ -1,0 +1,34 @@
+.home-nav-list{
+    position: fixed;
+    right:6%;
+    top:10%;
+    width:55px;
+    height:80%;
+    font-size: 15px;
+    transition: all .3s 
+}
+.home-nav-list nav{
+    display: block;
+    width:100%;
+    height:100%;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    border-radius:6px;
+}
+.home-nav-list ul{
+   display: block;
+   height:100%;
+   width:100%;
+}
+.home-nav-list li{
+    display:block;
+    height:35px;
+    line-height:35px; 
+    text-align: center;
+    margin-right:1px;
+    border-radius: 4px;
+   
+}
+.home-nav-list li a{
+    color:black;
+}

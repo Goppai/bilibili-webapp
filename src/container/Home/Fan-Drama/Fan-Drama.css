@@ -85,5 +85,186 @@
     background-image:url('../../../images/icons.png') ;
     background-position: -475px -275px;
     background-repeat:no-repeat;
-
+}
+.fan-drama-container{
+    height:calc(100% - 60px);
+    width:100%; 
+    padding-top:10px;
+}
+.fan-drama-container table{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.fan-drama-container tbody{
+    width:100%;
+    height:100%; 
+    display: block; 
+}
+.fan-drama-container table tr{
+    width:100%;
+    height:calc(100% / 3);
+    display: block;
+   
+}
+.fan-drama-container table tr td{
+    width:calc(100% / 4);
+    height:100%;
+    display: inline-block;
+   
+}
+.fan-drama-container table tr td>div{
+    padding: 10% 3% 15px 0px;
+    width:calc(100% - 3% );
+    height:calc(100% - 25% ); 
+}
+.fan-drama-container table tr td>div a{
+    width:100%;
+    height:100%;
+    display: inline-block;
+}
+.fan-drama-container img{
+    height:100%;
+    width:33%;
+    border-radius: 6px;
+    display: inline-block;
+}
+.fan-drama-container-p{
+    height:100%;
+    width:67%;
+    display:inline-block;
+    font-size:15px;
+}
+.fan-drama-container div p:first-of-type{
+    width:100%;
+    height:80%;
+    text-indent: 1em;
+    color:#000;
+}
+.fan-drama-container div p:nth-of-type(2){
+    width:100%;
+    height:20%;
+    text-indent: 1em;
+    color:#aaa;
+}
+.fan-drama-container div p:nth-of-type(2) span{
+    display:inline-block;
+    border-radius: 10px;
+    background-color:#ff8eb3;
+    text-align: center; 
+    text-indent:0px;
+    width:3em;
+    margin-left:0.5em; 
+    height:20px;
+    color:#fff;
+}
+.fan-drama-ranking{
+    width:23%;
+    height:100%;
+    
+    float:right;
+}
+.fan-drama-ranking-header{
+    height:50px;
+    width:100%;
+    font-size:30px;
+    color:black;
+    margin-top:10px;
+}
+.fan-drama-ranking-header span{
+    font-size:15px;
+    float:right;
+    border:1px solid #aaa;
+    border-radius: 4px;
+    display:inline-block;
+    width:18%;
+    height:25px;
+    line-height:25px;
+    margin-top:8px; 
+    text-indent: 0.5em;
+    display:inline-block;
+}
+.fan-drama-ranking-container{
+    height:calc(100% - 60px);
+    width:100%;
+    padding-top:20px; 
+   
+}
+.fan-drama-ranking-container nav{
+    height:calc(100% - 30px);
+    width:100%;
+}
+.fan-drama-ranking-container nav ul{
+    height:100%;
+    width:100%;
+    display: block;
+}
+.fan-drama-ranking-container nav ul li{
+    height:calc(100% / 7);
+    width:100%;
+    display: block;
+    font-size:15px;
+}
+.fan-drama-ranking-container nav ul li>span:first-of-type{
+    display:inline-block;
+    width:1.4em;
+    height:1.4em;
+    background-color: #aaa;
+    border-radius: 4px;
+    line-height: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    font-size:15px;
+    margin-right:10px; 
+    vertical-align: top;
+}
+.fan-drama-ranking-container nav ul li>span:nth-of-type(2){
+    display:inline-block;
+    max-width:60%;
+    margin-right:10px; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    height:1.4em;
+    line-height: 1.4em;
+}
+.fan-drama-ranking-container nav ul li>span:nth-of-type(3){
+    display:inline-block;
+    height:1.4em;
+    line-height: 1.4em;
+    color:#aaa;
+    vertical-align: top;
+   
+}
+.fan-drama-ranking-container-pink-span{
+    background-color: #f25d8e !important;
+}
+.fan-drama-ranking-container-footer{
+    width:100%;
+    height:30px;
+    text-align: center;
+    font-size:16px;
+    border-radius: 6px;
+    border:1px solid #e0e6f0;
+    background-color:#e5e9ef; 
+    line-height:30px;   
+}
+.fan-drama-ranking-container-footer span{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-image:url('../../../images/icons.png') ;
+    background-position: -478px -212px;
+    background-repeat:no-repeat;
+    margin-left:5px; 
+}
+.fan-drama-ranking-header i{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-image:url('../../../images/icons.png') ;
+    background-position: -475px -147px;
+    background-repeat:no-repeat;
+    margin-left:5px; 
 }
